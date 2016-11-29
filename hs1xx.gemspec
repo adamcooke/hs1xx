@@ -10,5 +10,5 @@ Gem::Specification.new do |s|
   s.authors       = ["Adam Cooke"]
   s.email         = ["me@adamcooke.io"]
   s.licenses      = ['MIT']
-  s.add_runtime_dependency 'json', '~> 0'
+  s.add_runtime_dependency 'json'
 end
