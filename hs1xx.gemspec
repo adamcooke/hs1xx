@@ -1,4 +1,7 @@
-require_relative './lib/hs1xx/version'
+lib = File.expand_path('../lib', __FILE__)
+$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+require 'hs1xx/version'
+
 Gem::Specification.new do |s|
   s.name          = "hs1xx"
   s.description   = %q{Control TP-Link HS100/110 devices}
