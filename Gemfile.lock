@@ -1,0 +1,19 @@
+PATH
+  remote: .
+  specs:
+    hs1xx (1.0.0)
+      json
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    json (2.0.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  hs1xx!
+
+BUNDLED WITH
+   1.14.5
